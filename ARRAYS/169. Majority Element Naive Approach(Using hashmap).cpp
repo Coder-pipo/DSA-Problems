@@ -9,7 +9,7 @@ public:
         int maximum=INT_MIN;
         int val;
         for(auto it:mp){
-            if(it.second>maximum){
+            if(it.second>(nums.size()/2){
                 maximum=it.second;
                 val=it.first;
             }
