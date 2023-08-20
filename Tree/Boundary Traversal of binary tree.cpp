@@ -65,8 +65,10 @@ public:
         
         //traverse leaf nodes
         //left subtree
-        traverseLeaf(root,ans);
+        traverseLeaf(root->left,ans);
         
+        //right subtree
+        traverseLeaf(root->right,ans);
         
         //right part print/store
         traverseRight(root->right,ans);
